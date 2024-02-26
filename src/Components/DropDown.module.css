@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+.container {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+select {
+  width: 200px;
+  height: 30px;
+  border-radius: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border: none;
+}
